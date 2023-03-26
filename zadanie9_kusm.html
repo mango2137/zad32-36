@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+     <title>styl zewnetrzny</title>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <!-- zewnetrzne -->
+     <link href="kusm_z9.css" rel="stylesheet" 
+     type="text/CSS">
+</head>
+<body  scroll="no" style="overflow: hidden">
+	<ol>
+	<LI><h1>Składnia teoretyczna -> otoczony ramką (może być tabela jedno komórkowa, konieczne wcięcia).<br>
+		</h1><br><font face="Arial"> <table border="style:99px solid;">	
+			<td>&lt;span style=&quot;cecha1: wartość1; cecha2: wartość2...&quot;&gt;...&lt/span>
+			</td></font></table>
+	<LI><h1>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1><br> styl zewnętrzny jest wstawiany pomiędzy znacznikami &lthead&gt.Odpowiedzialny za to znacznik to &ltlink&gt i może on byc napisany raz.<br>
+	<LI><h1>Jak jest najprostsza forma wstawiania stylu zewnętrznego -> otoczony ramką (może być tabela jedno komórkowa?</h1><br>
+	<table border="style:4px solid;">
+	<font face="Arial">
+	<td>
+	&lthtml><br>
+	&lthead><br>
+	&lttitle>styl zewnetrzny&lt/title><br>
+	&ltmeta http-equiv="Content-Type" content="text/html; charset=utf-8"><br>
+	&lt!-- zewnetrzne --><br>
+	&ltLINK href="cztery_pierwsze_litery_nazwiska_z5_2.css" rel="stylesheet" type="text/CSS"><br>
+	&lt/head><br>
+	</td>
+	</font>
+	</table>
+	<LI><h1>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</h1><br>
+	Tylko 1 i trzeba dodac do kazdego stylu:<br>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<LI><h1>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1><br>
+		<font face="Arial">W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.</font>
+	<LI><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1><br>
+		Normalnie, z tą różnicą, że trzeba zmienić rozszerzenie na "*.css" .
+	<LI><h1>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1><br>
+		Prostsze, gdyż program podpowiada możliwe polecenia i sam z siebie zapisuje plik jako "*.css" . 
+	<LI><h1>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</h1><br>
+		*.css 
+	<LI><h1>Uwagi na temat pisania w CSS.</h1><br>
+		
+		wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.
+		jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez konieczności zmiany każdej strony osobno.
+	
+	<LI><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1><br>
+		Poprawia wygląd strony, wszechstronny wybór w kwestii podłączania pliku css/komendy css.
+<br>
+</body>
+</html>
+<!--Opis powinien zawierać:
+1. Składnia teoretyczna -> otoczony ramką (może być tabela jedno komórkowa,
+konieczne wcięcia).
+2. Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+ile razy może on występować w dokumencie, jako podłączenie stylu CSS?
+3. Jak jest najprostsza forma wstawiania stylu zewnętrznego -> otoczony ramką (może
+być tabela jedno komórkowa?
+4. Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+musi być zachowana przy większej ilości dołączanych styli?
+5. Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.
+6. Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?
+7. Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?
+8. Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?
+9. Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?
+10. Uwagi na temat pisania w CSS.-->

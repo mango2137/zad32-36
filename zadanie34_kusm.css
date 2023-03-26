@@ -1,0 +1,95 @@
+h3 {
+	background-color: #C0C0C0;
+	font-size: 11pt;
+	width: 400pt;
+	height:3cm;
+	padding : 20px;
+	margin-left :  11cm;
+	border : 10px double gray;
+	/*kolor obramowania -> 3
+	styl obramowania -> 4
+	background : rgb(100,100,100);*/
+}
+
+/*p#akapit1_kusmierski{
+	font-family: serif;
+	text-decoration: overline;
+	font-style: italic;
+	line-height: 1cm;
+	word-spacing: 12px;
+	letter-spacing: 5ex;
+}
+
+span#a{
+	color: #3CB043;
+	font-weight: 200;
+	font-size: x-small;
+}
+span#b{
+	color: #19a022;
+	font-variant: small-caps;
+	font-weight: 700;
+	font-size: medium;
+	text-transform: uppercase;
+	text-indent: 2cm;
+}
+span#c{
+	color: #0e7715;
+	font-weight: 900;
+	font-size: large;
+}
+
+
+
+
+#akapit2_kusmierski{
+	font-family: sans-serif;
+	text-decoration: line-through;
+	font-style: oblique;
+	line-height: 15mm;
+	word-spacing: 10pt;
+	letter-spacing: 0.5cm;
+}
+
+span#d{
+	color: #231709;
+	font-weight: 300;
+	font-size: 20px;
+}
+span#e{
+	color: #553716;
+	font-variant: small-caps;
+	font-weight: 600;
+	font-size: 0.2in;
+	text-transform: capitalize;
+	text-indent: 25mm;
+}
+span#f{
+	color: #a06016;
+	font-weight: 800;
+	font-size: 1.1em;
+}
+
+
+
+
+
+#square{
+	list-style-type: square;
+}
+#circle{
+	list-style-type: circle;
+}
+#wyliczenie{
+	list-style-type: decimal;
+}
+#ab{
+	list-style-type: lower-alpha;
+}
+#かんじ{
+	list-style-type: cjk-ideographic; /*+5 ソーシャル クレジット 👍*/
+/*}
+h1{
+	text-align: right;
+	color: red;
+}*/

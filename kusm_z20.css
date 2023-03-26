@@ -1,0 +1,54 @@
+span{
+    color: green;
+    font-size: 25mm;
+}
+DIV#ichi{
+    width: 100%;
+    height: 40%; 
+    color:  #FFFDD0;
+}
+p#pdla1div{
+    font-size: 20pt;
+    font-family: Arial;
+    color: orange;
+}
+DIV#ni{
+    background-color: #213721;
+    width: 80%;
+    height: 15%;
+    
+}
+i, p, div#ni{
+    color:green;
+    font-size: 20pt;
+}
+strike, p, div#ni{
+    color:red;
+    font-size: 20pt;
+}
+u, p, div#ni{
+    color:  #FF00FF;
+    font-size: 20pt;
+}
+div#san{
+    background-color: #c0d727;
+    width: 100%;
+    height: 30%;
+}
+h1, div#san{
+    color: blue;
+    font-size: 30pt;
+    text-decoration: underline; 
+}
+ol#uno, div#san{
+    color: blue;
+    font-size: 25pt;
+}
+ol#dos, div#san{
+    color: red;
+    font-size: 20pt;
+}
+ol#tres, div#san{
+    color: grey;
+    font-size: 15pt;
+}

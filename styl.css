@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+td{
+    width: 18%;
+    text-align: center;
+    border: solid 1px black;
+}
+
+td iframe{
+    width: 650px;
+    height: 650px;
+    border: 0px;
+}
+
+table{
+    width: 95%;
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+}

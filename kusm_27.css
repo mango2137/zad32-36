@@ -1,0 +1,25 @@
+body{
+	background-color: pink;
+	text-align: center;
+}
+td{
+	color: violet;
+}
+table{
+	border-top-color: green;
+}
+#square{
+	list-style-type: square;
+}
+#circle{
+	list-style-type: circle;
+}
+#wyliczenie{
+	list-style-type: decimal;
+}
+#ab{
+	list-style-type: lower-alpha
+}
+#かんじ{
+	list-style-type: cjk-ideographic;
+}
